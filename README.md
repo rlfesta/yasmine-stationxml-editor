@@ -32,9 +32,10 @@ If there is no internet connection, unzip the bundled NRL (IRIS.zip) in the `dat
 
 ### Installation using Docker
 1. Install [Docker Compose](https://docs.docker.com/compose/install/) or [Docker Desktop](https://www.docker.com/products/docker-desktop)
-2. Run `docker-compose up` to start
-3. Visit <http://localhost:1841>
-4. Run `docker-compose down` to stop
+2. go in yasmine-stationxml-editor folder
+3. Run start.sh
+4. Visit <http://localhost:1841>
+5. Run stop.sh to stop 
 
 If you are running on an Apple M1 machine, uncomment the lines indicating the target platform in the `docker-compose.yml` file.
 
