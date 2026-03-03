@@ -79,7 +79,7 @@ NRL_ROOT = os.path.join(MEDIA_ROOT, 'nrl')  # @UnusedVariable
 IAL_ROOT = os.path.join(MEDIA_ROOT, 'ial')
 
 NRL_CRON = {'hour': 23, 'minute': 0, 'second': 0}
-NRL_URL = 'http://ds.iris.edu/NRL/IRIS.zip'
+NRL_URL = 'http://www.sismocal.org/NRL/IRIS.zip'
 IAL_FOLDER = 'arol-master'
 IAL_URL = f'https://gitlab.com/resif/arol/-/archive/master/arol-master.zip'
 
